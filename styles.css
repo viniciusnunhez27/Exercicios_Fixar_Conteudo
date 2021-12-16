@@ -5,7 +5,7 @@ body {
   display:grid;
   gap: 60px;
   justify-content: center;
-  margin-top: 3.75rem;
+  margin-top: 60px;
 }
 
 img { 
@@ -23,7 +23,7 @@ h1,h2,p,h3 {
 }
 
 p { 
- font-size: 20px;
+ font-size: 1,25rem;
  line-height: 1.3;
 }
 
@@ -38,7 +38,7 @@ p {
 
 .menu a { 
  background: #fff;
- padding: 1rem 2rem;
+ padding: 16px 30px;
  border-radius: 4px;
  color: black; 
  text-transform: uppercase;
@@ -53,7 +53,7 @@ p {
 
 .introducao { 
   background: #fff;
-  padding: 2.5rem;
+  padding: 40px;
   text-align: right;
   position: relative;
   display: grid;
@@ -65,7 +65,7 @@ p {
 .btn { 
    background: #e21;
    color: #fff;
-   padding: 1rem  1.25rem;
+   padding:16px 20px;
    border-radius: 4px;
    text-transform: uppercase;
    
@@ -76,23 +76,25 @@ p {
   height: 4px;
   background: #e21;
   position: absolute;
-  top: 1rem;
-  right: -2rem;
+  top: 16px;
+  right: -32px;
 }
 
 .subtitulo { 
-   font-size: 64px;
+   font-size: 4rem;
    text-transform: uppercase;
    color: rgba(0, 0, 0, 0.2);
    text-align: right;
-   padding: 2.5rem;
+   padding: 40px;
    align-self: center;
+   background-image: url("./img/onda.svg");
 
 }
 
 .vantagens { 
     background: #fff;
-    padding: 2.5rem;
+    padding: 40px;
+  
   
   }
 
@@ -100,7 +102,8 @@ p {
      display: grid;
      grid-template-columns: auto 1fr;
      gap: 10px 20px;
-     padding: 1.25rem;
+     padding: 20px
+     
      
   }
 
@@ -113,13 +116,27 @@ p {
      background: #fff;
      width:100%;
      text-align: center;
-     padding: 2.5rem;
+     padding: 40px;
      box-sizing: border-box;
      display: inline-block;
-    
   }
 
-  
 .menu a:hover  {
    border: 2px solid #e21; 
 }
+
+.introducao a:hover {
+    background: #900;
+}
+
+.vantagens-item:first-child{
+   background: #f7f7f7;
+
+}
+
+.vantagens-item:last-child{
+   background: #f7f7f7;
+}
+
+
+
